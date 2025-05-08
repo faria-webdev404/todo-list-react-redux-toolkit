@@ -44,6 +44,7 @@ git clone https://github.com/faria-webdev404/todo-list-react-redux-toolkit.git
 Navigate into the project directory and install all required dependencies:
 
  cd todo-list-react-redux-toolkit
+ 
  npm install
 
 3. Run the Development Server
@@ -77,7 +78,7 @@ Feel free to fork the repo and submit a pull request.
 
 🙋‍♀️ Author
 
- Made by Faria Abid
+ Developed by Faria Abid
  
  💬 Contact
 
