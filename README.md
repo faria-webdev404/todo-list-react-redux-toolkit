@@ -1,17 +1,87 @@
-<<<<<<< HEAD
-# todo-list-react-redux-toolkit
-A To-Do List app built with React and Redux Toolkit for efficient state management. Add, edit, and delete tasks with ease, demonstrating full CRUD functionality.
-=======
-# React + Vite
+# 📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive To-Do List application built with **React**, **Redux Toolkit**, and **Vite**. This app allows users to add, complete, delete, and filter tasks in an intuitive way.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Live on Vercel](https://your-vercel-url.vercel.app)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 6e236fd (Create todo list component with Redux toolkit)
+- **React**: JavaScript library for building user interfaces.
+- **Redux Toolkit**: For state management.
+- **Vite**: Next-generation, fast build tool.
+- **JavaScript (ES6+)**: The main language used in the project.
+- **Tailwind CSS**: For styling and responsive design.
+
+## 📌 Features
+
+- ✅ Add new tasks
+- 🗑️ Delete individual tasks
+- 🗑️ Edit individual tasks
+- 📱 Fully responsive UI for desktop and mobile screens
+- 🎨 Modern UI with smooth transitions
+
+## 📂 Folder Structure
+
+src/
+├── app/                # Redux store configuration
+├── components/         # Reusable UI components (e.g., TodoItem, TodoForm)
+├── features/           # Redux slices (e.g., todosSlice)
+├── pages/              # Main pages 
+├── App.jsx             # Main application component
+├── main.jsx            # Entry point for the app
+└── index.css           # Global styles
+
+## 🔧  Installation
+
+1. Clone the Repository
+Clone the project to your local machine using Git:
+
+git clone https://github.com/faria-webdev404/todo-list-react-redux-toolkit.git
+
+2. Install Dependencies
+Navigate into the project directory and install all required dependencies:
+
+ cd todo-list-react-redux-toolkit
+ npm install
+
+3. Run the Development Server
+Start the development server to view the app locally:
+
+ npm run dev
+
+📝 Usage
+
+How to Use the App
+
+Add a Task: Enter a task name in the input field and click the "Add" button to add it to the list.
+
+Edit a Task: Click the "Edit" button to change the text of an existing task.
+
+Delete a Task: Click the "Delete" button to remove a task from the list.
+
+📸 Screenshots
+
+## 📸 Screenshot
+
+![App Screenshot](src/assets/images/Todo.png)
+
+📑 License
+This project is open-source and available under the MIT License.
+
+🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+Feel free to fork the repo and submit a pull request.
+
+🙋‍♀️ Author
+
+ Made by Faria Abid
+ 
+ 💬 Contact
+
+If you have any questions or feedback, feel free to reach out to me:
+
+Email: [fariaabid473@gmail.com]
+

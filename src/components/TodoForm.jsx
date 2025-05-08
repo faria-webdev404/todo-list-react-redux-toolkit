@@ -15,17 +15,17 @@ const TodoForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-3 mb-6">
+    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row sm:gap-3 mb-6">
       <input
         type="text"
-        className="flex-1 border border-gray-300 rounded-lg px-4 py-3 text-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+        className="w-full sm:w-80 md:w-96 border border-gray-300 rounded-lg px-4 py-3 text-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
         placeholder="Add a new task..."
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
       <button
         type="submit"
-        className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 text-lg rounded-lg transition duration-200"
+        className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 text-lg rounded-lg transition duration-200 sm:w-auto mt-3 sm:mt-0 sm:ml-3 w-full"
       >
         Add
       </button>
