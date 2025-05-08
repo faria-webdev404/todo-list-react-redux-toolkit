@@ -4,7 +4,7 @@ A modern and responsive To-Do List application built with **React**, **Redux Too
 
 ## 🚀 Live Demo
 
-🔗 [View Live on Vercel](https://your-vercel-url.vercel.app)
+🔗 [View Live on Vercel](https://todo-list-react-redux-toolkit-pied.vercel.app/)
 
 ## 🛠️ Tech Stack
 
